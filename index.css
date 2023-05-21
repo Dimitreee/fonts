@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "AtypText";
+    src: url("fonts/AtypRegularVariable.ttf");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "PPMori-Regular";
+    src: url("fonts/PPMori-Regular.otf");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "TT-Fors";
+    src: url("fonts/TT_Fors_Trial_Variable.ttf");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "TT_Hoves_Pro_Trial_Variable";
+    src: url("fonts/TT_Hoves_Pro_Trial_Variable.ttf");
+    font-style: normal;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    text-align: center;
+}
+
+.AtypText {
+    font-family: 'AtypText', Arial;
+    font-weight:normal;
+    font-style:normal;
+}
+
+.PPMori-SemiBold {
+    font-family: 'PPMori-Regular', Arial;
+    font-weight:normal;
+    font-style:normal;
+}
+
+.TT-Fors {
+    font-family: 'TT-Fors', Arial;
+    font-weight:normal;
+    font-style:normal;
+}
+
+.TT_Hoves_Pro_Trial_Variable {
+    font-family: 'TT_Hoves_Pro_Trial_Variable', Arial;
+    font-weight:normal;
+    font-style:normal;
+}
+
+p {
+    font-size: 64px;
+    line-height: 80px;
+}
